@@ -222,7 +222,7 @@ class Player(object):
             self.straight = True
 
         elif (self.three_of_kind and self.pair) == True:
-            print(self.firstname, 'full house : ', self.made_hand_three,
+            print(self.firstname, 'full house : ', self.made_hand_three[0],
                   "'s over ", self.made_hand, "'s")
             self.full_house = True
 
